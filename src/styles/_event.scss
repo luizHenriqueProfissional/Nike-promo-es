@@ -1,0 +1,68 @@
+.section-event{
+    background-image: url(../image/img-fundo-section.jpg);
+    background-size: cover;
+    position: relative;
+
+    &::before{
+            position: absolute;
+            top: 20%;
+            left: 18%;
+            width: 65%;
+            height: 60%;
+            background-color: #000;
+            content: '';
+            opacity: 0.9;
+    }
+
+    .event{
+        position: relative;
+        padding: 18vw;
+        h2{
+            font-family:sa;
+            position: relative;
+            text-align: center;
+            color: #fff;
+            margin: 0 auto;
+            font-size: 45px;
+            span{
+                font-size: 30px;
+            }
+
+        }
+
+
+        &__description{
+            width: 80%;
+            margin: 0 auto;
+            position: relative;
+            background-color: #ecf0f1;
+            padding: 30px;
+            top: 50px;
+            
+            .event__description__ul{
+                display: flex;
+
+                .button{
+                    background-color: #0652DD;
+                    color: #fff;
+                    border: 2px solid #006266;
+                    width: 50%;
+                    padding: 15px;
+                }
+
+                .event__description__ul__li{
+                    margin-top: 7px;
+                    display: block;
+                    width: 100%;
+                    gap: 30px;
+                    a{
+                        text-decoration: none;
+                        display: block;
+                    }
+ 
+                }
+
+            }
+        }
+    }
+}

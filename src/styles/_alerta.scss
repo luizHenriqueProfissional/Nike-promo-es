@@ -1,0 +1,17 @@
+section{
+    background-color: rgba(248, 9, 9, 0.966);
+    ul{
+        margin: 0;
+        display: flex;
+        li{
+            list-style: none;
+            p{
+                color: #fff;
+                padding: 5px;
+                margin: 0 80px;
+                font-weight: bold;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            }
+        }
+    }
+}
