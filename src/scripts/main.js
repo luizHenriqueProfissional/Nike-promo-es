@@ -29,7 +29,7 @@ const contaAsHoras = setInterval(function(){
     console.log(segundosAteOEvento);
 
 
-    document.getElementById('contador').innerHTML = `${diasAteOEvento}d ${horasAteOEvento}h ${minutossAteOEvento}m ${segundosAteOEvento}s`
+    document.getElementById('contador').innerHTML = `${diasAteOEvento.value}d ${horasAteOEvento.value}h ${minutossAteOEvento.value}m ${segundosAteOEvento.value}s`
 
    if(distanciaAteOEvento < 0){
     clearInterval(contaAsHoras)
