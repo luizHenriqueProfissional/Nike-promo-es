@@ -52,3 +52,50 @@ header{
         }
     }
 }
+
+@media(max-width:700px){
+    header{
+        .container{
+            justify-content: space-between;
+            img{
+                max-width: 100px;
+            }
+            display: block;
+            .link__nav{
+                &__ul{
+                    padding: 0;
+                    justify-content: center;
+                    display: block;
+                    &__li{
+                        list-style: none;
+                        margin-bottom: 5px;
+                        &--a{
+                            font-size: 10px;
+                            
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media(max-width:1023px){
+    header{
+        width: 100%;
+        .container{
+            display: flex;
+            img{
+                max-width: 100px;
+            }
+            .link__nav{
+                &__ul{
+                    &__li{
+                        &--a{
+                            font-size: 10px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
